@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.lrytas" name="Lrytas.lt" version="0.0.2" provider-name="Vladas Diržys">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.xbmcswift" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Stream Lrytas.lt</summary>
+    <description lang="de">Videos on tv.lrytas.lt</description>
+    <description lang="en">The Content of tv.lrytas.lt on your Media Center</description>
+  </extension>
+</addon>
